@@ -1,0 +1,15 @@
+a[target="_blank"][href$="ir/"]{
+    color: orange;
+}
+
+a[href*="google"]{
+    font-style: italic;
+}
+
+a[href^="https"]{
+    font-size: large;
+}
+
+a[href*=".com"]{
+    color: red;
+}
