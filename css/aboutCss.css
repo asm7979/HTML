@@ -63,3 +63,21 @@ p.quote::before , p.quote::after {
     font-size: 160%;
 }
 
+.headings{
+    color: antiquewhite;
+}
+
+#dummyT2 {
+    color: gold;
+}
+
+h2{
+    color: blue;
+}
+
+.headings#dummyT {
+    color: aqua;
+}
+
+
+
