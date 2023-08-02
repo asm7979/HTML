@@ -29,3 +29,20 @@ section.sub-article2 + p{
 #fakeId > p{
     color: goldenrod;
 }
+
+#fakeId p:first-child{
+    font-size: larger;
+}
+
+section :last-child{
+    font-style: italic;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover , a:focus{
+    color: sienna;
+}
+
