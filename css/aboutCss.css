@@ -13,3 +13,19 @@ a[href^="https"]{
 a[href*=".com"]{
     color: red;
 }
+
+section.sub-article2 p{
+    color: palevioletred;
+}
+
+section.sub-article2 ~ p{
+    color: olive;
+}
+
+section.sub-article2 + p{
+    color: blueviolet;
+}
+
+#fakeId > p{
+    color: goldenrod;
+}
