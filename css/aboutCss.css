@@ -46,3 +46,20 @@ a:hover , a:focus{
     color: sienna;
 }
 
+::selection{
+    background-color: blueviolet;
+}
+
+p::first-letter{
+    font-size: 150%;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+p.quote::before , p.quote::after {
+    color: red;
+    content: ",,";
+    display: block;
+    font-size: 160%;
+}
+
