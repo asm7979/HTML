@@ -51,46 +51,73 @@
     </style>
   </head>
   <body>
-    <ul>
-      <li><a href="com/about.html">about this page</a></li>
-      <li><a href="com/aboutMe.html">about me</a></li>
-      <li><a href="com/contactMe.html">contact me</a></li>
-    </ul>
-    <h1>welcome</h1>
-    <a href="/images/github-prof.jpg">
-      <img
-        class="profile-photo"
-        src="images/github-prof.jpg"
-        alt="aasm's github profile photo"
-      />
-    </a>
-    <a href="/images/github-prof.jpg" download>click to download the image</a>
-    <h2>username</h2>
-    <p class="username">@aasm</p>
-    <h2>bio</h2>
-    <p>HELLO <em>HTML</em> and <strong>CSS!</strong></p>
-    <h3>favorite hobbies</h3>
-    <p>&lt;coding&gt;</p>
-    <h3>biography</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos a aut
-      veritatis assumenda, fuga praesentium ratione officia totam ducimus eaque
-      tempore aliquam, in nulla sint suscipit accusantium sed consectetur minima
-      cum sapiente! Laboriosam fuga unde, eos repellat soluta suscipit commodi
-      id eaque? Amet praesentium debitis qui commodi beatae doloremque unde
-      ipsum incidunt voluptate, fugiat nulla. Velit animi molestias inventore
-      quibusdam ad ullam aspernatur veritatis numquam quidem tempore id repellat
-      molestiae dolore qui sunt optio eveniet exercitationem magnam eius
-      reiciendis voluptatibus odio, modi at voluptate? Officiis recusandae quod
-      consectetur eaque facere nisi&nbsp;asperiores facilis, ducimus a quasi est
-      possimus in deserunt!
-    </p>
-    <video autoplay loop src="videos/tech.mp4">
-      your browser doesn't support videos
-    </video>
-    <audio controls loop src="/audios/background_chill_music.mp3">
-      background_chill_music
-    </audio>
-    <p class="copyright">all copyright terms are reserved to AASM&copy;</p>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="com/about.html">about this page</a></li>
+          <li><a href="com/aboutMe.html">about me</a></li>
+          <li><a href="com/contactMe.html">contact me</a></li>
+        </ul>
+      </nav>
+      <h1>welcome</h1>
+    </header>
+    <main>
+      <section>
+        <a href="/images/github-prof.jpg">
+          <img
+            class="profile-photo"
+            src="images/github-prof.jpg"
+            alt="aasm's github profile photo"
+          />
+        </a>
+        <a href="/images/github-prof.jpg" download
+          >click to download the image</a
+        >
+        <h2>username</h2>
+        <p class="username">@aasm</p>
+      </section>
+      <section>
+        <h2>bio</h2>
+        <p>HELLO <em>HTML</em> and <strong>CSS!</strong></p>
+      </section>
+      <section>
+        <h3>favorite hobbies</h3>
+        <p>&lt;coding&gt;</p>
+      </section>
+      <section>
+        <article>
+          <header>
+            <h3>biography</h3>
+          </header>
+          <main>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos a
+              aut veritatis assumenda, fuga praesentium ratione officia totam
+              ducimus eaque tempore aliquam, in nulla sint suscipit accusantium
+              sed consectetur minima cum sapiente! Laboriosam fuga unde, eos
+              repellat soluta suscipit commodi id eaque? Amet praesentium
+              debitis qui commodi beatae doloremque unde ipsum incidunt
+              voluptate, fugiat nulla. Velit animi molestias inventore quibusdam
+              ad ullam aspernatur veritatis numquam quidem tempore id repellat
+              molestiae dolore qui sunt optio eveniet exercitationem magnam eius
+              reiciendis voluptatibus odio, modi at voluptate? Officiis
+              recusandae quod consectetur eaque facere nisi&nbsp;asperiores
+              facilis, ducimus a quasi est possimus in deserunt!
+            </p>
+          </main>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <video autoplay loop src="videos/tech.mp4">
+        your browser doesn't support videos
+      </video>
+      <aside>
+        <audio controls loop src="/audios/background_chill_music.mp3">
+          background_chill_music
+        </audio>
+      </aside>
+      <p class="copyright">all copyright terms are reserved to AASM&copy;</p>
+    </footer>
   </body>
 </html>
