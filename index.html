@@ -7,16 +7,8 @@
     <meta name="description" content="a simple webpage that belongs to aasm" />
     <title>my first web page</title>
     <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/index.css" />
     <style>
-      img.profile-photo {
-        float: left;
-        border-radius: 50px;
-        width: 250px;
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 40px;
-        object-fit: cover;
-      }
       img.icon {
         float: inline-end;
         border-radius: 25px;
@@ -61,16 +53,20 @@
     </header>
     <main>
       <section>
-        <a href="/images/github-prof.jpg">
-          <img
-            class="profile-photo"
-            src="images/github-prof.jpg"
-            alt="aasm's github profile photo"
-          />
-        </a>
-        <a href="/images/github-prof.jpg" download
-          >click to download the image</a
-        >
+        <figure>
+          <a href="/images/github-prof.jpg">
+            <img
+              class="profile-photo"
+              src="images/github-prof.jpg"
+              alt="aasm's github profile photo"
+            />
+          </a>
+          <figcaption>
+            <a href="/images/github-prof.jpg" download
+              >click to download the image</a
+            >
+          </figcaption>
+        </figure>
         <h2>username</h2>
         <p style="font-weight: bold">@aasm</p>
       </section>

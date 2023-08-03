@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(45deg, skyblue, rgb(62, 246, 62));
+}
+
+main {
+  background: radial-gradient(
+    circle at top left,
+    rgb(203, 148, 45),
+    rgb(197, 129, 140)
+  );
+}
+
+.profile-photo {
+  border-radius: 50px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+body > header {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    112deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(252, 161, 69, 1) 94%
+  );
+}
+
+body > header a {
+  color: black;
+}

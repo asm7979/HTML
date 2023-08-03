@@ -1,93 +1,102 @@
-a[target="_blank"][href$="ir/"]{
-    color: orange;
+a[target="_blank"][href$="ir/"] {
+  color: orange;
 }
 
-a[href*="google"]{
-    font-style: italic;
+a[href*="google"] {
+  font-style: italic;
 }
 
-a[href^="https"]{
-    font-size: large;
+a[href^="https"] {
+  font-size: large;
 }
 
-a[href*=".com"]{
-    color: red;
+a[href*=".com"] {
+  color: red;
 }
 
-section.sub-article2 p{
-    color: #d9528f;
+section.sub-article2 p {
+  color: #d9528f;
 }
 
-section.sub-article2 ~ p{
-    color: olive;
+section.sub-article2 ~ p {
+  color: olive;
 }
 
-section.sub-article2 + p{
-    color: blueviolet;
+section.sub-article2 + p {
+  color: blueviolet;
 }
 
-#fakeId > p{
-    color: goldenrod;
+#fakeId > p {
+  color: goldenrod;
 }
 
-#fakeId p:first-child{
-    font-size: larger;
+#fakeId p:first-child {
+  font-size: larger;
 }
 
-section :last-child{
-    font-style: italic;
+section :last-child {
+  font-style: italic;
 }
 
 a:visited {
-    color: blueviolet;
+  color: blueviolet;
 }
 
-a:hover , a:focus{
-    color: sienna;
+a:hover,
+a:focus {
+  color: sienna;
 }
 
-::selection{
-    background-color: blueviolet;
+::selection {
+  background-color: blueviolet;
 }
 
-p::first-letter{
-    font-size: 150%;
-    font-weight: bold;
-    font-style: oblique;
+p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+  font-style: oblique;
 }
 
-p.quote::before , p.quote::after {
-    color: red;
-    content: ",,";
-    display: block;
-    font-size: 160%;
+p.quote::before,
+p.quote::after {
+  color: red;
+  content: ",,";
+  display: block;
+  font-size: 160%;
 }
 
-.headings{
-    color: antiquewhite;
+.headings {
+  color: antiquewhite;
 }
 
 #dummyT2 {
-    color: gold;
+  color: gold;
 }
 
-h2{
-    color: blue;
+h2 {
+  color: blue;
 }
 
 .headings#dummyT {
-    color: aqua;
+  color: aqua;
 }
 
-#p1 strong{
-    color : initial;
+#p1 strong {
+  color: initial;
 }
 
 #p2 {
-    border: 2px dashed gray;
+  border: 2px dashed gray;
 }
 
-#p2 mark{
-    border: inherit;
+#p2 mark {
+  border: inherit;
 }
 
+#sec {
+  background: linear-gradient(red, yellow);
+}
+
+#sec2 {
+  background: radial-gradient(circle, rgb(188, 206, 209), rgb(22, 190, 69));
+}
