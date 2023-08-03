@@ -79,5 +79,15 @@ h2{
     color: aqua;
 }
 
+#p1 strong{
+    color : initial;
+}
 
+#p2 {
+    border: 2px dashed gray;
+}
+
+#p2 mark{
+    border: inherit;
+}
 
