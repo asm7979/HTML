@@ -15,7 +15,7 @@ a[href*=".com"]{
 }
 
 section.sub-article2 p{
-    color: palevioletred;
+    color: #d9528f;
 }
 
 section.sub-article2 ~ p{
