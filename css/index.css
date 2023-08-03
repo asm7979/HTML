@@ -37,4 +37,14 @@ body > header a {
   width: 120px;
   height: 60px;
   border-radius: 50%;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 7px 7px 15px black;
+}
+
+#u {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+.profile-photo {
+  box-shadow: 0 0 50px black;
 }
