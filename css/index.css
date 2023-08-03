@@ -31,3 +31,10 @@ body > header {
 body > header a {
   color: black;
 }
+
+#welcome {
+  border: 5px dotted black;
+  width: 120px;
+  height: 60px;
+  border-radius: 50%;
+}
