@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
 }
 
 #top-nav-bar {
@@ -8,6 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1.4rem;
 }
 
 #top-nav-bar a {
@@ -23,31 +25,15 @@ body {
   margin: 0.3rem;
 }
 
-#top-nav-bar section:first-of-type {
-  margin-top: 1.5rem;
-}
-
-#top-nav-bar section:last-of-type {
-  margin-bottom: 1.5rem;
-}
-
 @media screen and (min-width: 768px) {
   #top-nav-bar {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 0.7rem;
   }
 
   #top-nav-bar section {
-    margin: 1rem 0.6rem;
-  }
-
-  #top-nav-bar section:first-of-type {
-    margin-top: 1rem;
-  }
-
-  #top-nav-bar section:last-of-type {
-    margin-bottom: 1rem;
-    margin-right: 1rem;
+    margin: 0 0.6rem;
   }
 }
