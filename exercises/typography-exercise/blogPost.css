@@ -1,20 +1,19 @@
 html {
   font-size: 62.5%;
-  font-display: optional;
 }
 
 body {
-  margin-left: 1rem;
   font-family: "Lato", sans-serif;
   font-size: 2.2rem;
   color: #333;
   line-height: 1.5;
   word-spacing: 0.14rem;
+  padding: 1.5rem;
 }
 
 article {
   max-width: 1140px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 img {
@@ -50,12 +49,12 @@ h6 {
   margin-bottom: 0.7rem;
   letter-spacing: -0.5px;
   word-spacing: -0.17rem;
+  line-height: 1;
 }
 
 h1 {
   font-size: 7.594rem;
   margin: 1rem 0;
-  line-height: 1;
 }
 
 h2 {
