@@ -1,0 +1,72 @@
+html {
+  font-size: 62.5%;
+  font-display: optional;
+}
+
+body {
+  margin-left: 1rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2.2rem;
+  color: #333;
+  line-height: 1.5;
+  word-spacing: 0.14rem;
+}
+
+article {
+  max-width: 1140px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+ul,
+ol {
+  margin-top: 1.5rem;
+}
+
+ol li {
+  margin: 1.5rem 0;
+}
+
+#lead-p {
+  font-style: italic;
+  font-size: 2.5rem;
+  font-family: "Roboto Slab", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: "REM", sans-serif;
+  font-weight: bold;
+  margin-top: 4rem;
+  margin-bottom: 0.7rem;
+  letter-spacing: -0.5px;
+  word-spacing: -0.17rem;
+}
+
+h1 {
+  font-size: 7.594rem;
+  margin: 1rem 0;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 5.063rem;
+}
+
+h3 {
+  font-size: 3.375rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+}
