@@ -1,0 +1,60 @@
+html {
+  font-size: 62.5%;
+}
+
+#hero {
+  background: url(images/background_320.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  word-spacing: 1.5rem;
+  font-weight: 900;
+  text-shadow: 1.8rem 1.8rem 2rem black;
+}
+
+#hero p {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 853px) {
+  #hero {
+    background: url(images/background_928.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1228px) {
+  #hero {
+    background: url(images/background_1272.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #hero {
+    background: url(images/background_1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
