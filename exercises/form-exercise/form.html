@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign in</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <main>
+      <h1>please sign in</h1>
+      <form>
+        <input
+          type="email"
+          placeholder="Email Address"
+          autofocus
+          required
+          minlength="7"
+          maxlength="40"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          required
+          minlength="8"
+          maxlength="30"
+        />
+        <input type="checkbox" name="remember" id="rmb" />
+        <label for="rmb" class="label-inline">Remember me</label>
+        <button type="submit">sign in</button>
+      </form>
+    </main>
+    <footer><p>copyright &copy; 2023 by AASM</p></footer>
+  </body>
+</html>
