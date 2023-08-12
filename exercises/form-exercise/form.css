@@ -16,11 +16,12 @@ body {
 }
 
 body main {
-  width: 280px;
+  width: 290px;
   margin: auto;
   text-align: center;
   text-transform: capitalize;
   overflow: auto;
+  padding: 1.5rem;
 }
 
 footer {
@@ -39,6 +40,8 @@ button {
   width: 100%;
   background: #0d6efd;
   text-transform: capitalize;
+  outline: 0;
+  box-shadow: 0.1rem 0.1rem 0.3rem 0.15rem black;
 }
 
 h1 {
@@ -48,21 +51,11 @@ h1 {
 input {
   margin: 1rem auto;
   border-color: #ced4da;
+  outline: 0;
+  transition: border 0.2s, box-shadow 0.2s;
 }
 
-input[type="email"]:focus,
-input[type="password"]:focus {
+input.form-control:focus {
   border: 0.15rem solid #86b7fe;
   box-shadow: 0 0 0.5rem 0.5rem #b9d3fa;
 }
-/* form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-button {
-  display: block;
-  justify-self: center;
-} */
